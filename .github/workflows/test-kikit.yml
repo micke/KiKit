@@ -93,7 +93,7 @@ jobs:
         with:
           context: . # We need path context, so .git gets included
           push: true
-          tags: yaqwsx/kikit:nightly${{ matrix.build-config.suffix }}
+          tags: lisinge/kikit:nightly${{ matrix.build-config.suffix }}
           platforms: ${{ matrix.build-config.platform }}
           build-args: |
             REPO=${{ matrix.build-config.repo }}
